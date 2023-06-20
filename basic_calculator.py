@@ -12,16 +12,16 @@ ev=str(input("to evaluate enter '=': "))
 if ev=="=":
     if op=="+":
         print(str(a)+op+str(b)+"="+str(a+b))
-        print("Thank you!")
+        print("THANK YOU!")
     elif op=="-":
         print(str(a)+op+str(b)+"="+str(a-b))
-        print("Thank you!")
+        print("THANK YOU!")
     elif op=="*":
         print(str(a)+op+str(b)+"="+str(a*b))
-        print("Thank you!")
+        print("THANK YOU!")
     elif op=="/":
         print(str(a)+op+str(b)+"="+str(a//b))
-        print("Thank you!")
+        print("THANK YOU!")
     else:
         print("invalid entry, please try again :(")
         
