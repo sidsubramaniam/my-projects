@@ -20,7 +20,7 @@ if ev=="=":
         print(str(a)+op+str(b)+"="+str(a*b))
         print("THANK YOU!")
     elif op=="/":
-        print(str(a)+op+str(b)+"="+str(a//b))
+        print(str(a)+op+str(b)+"="+str(a/b))
         print("THANK YOU!")
     else:
         print("invalid entry, please try again :(")
